@@ -19,7 +19,7 @@ count_name1_v = names.count("v")
 count_name1_e = names.count("e")
 total_letters_love = count_name1_l + count_name1_o + count_name1_v + count_name1_e
 
-total_number = str(total_letters_true) + str(total_letters_love) 
+total_number = int(str(total_letters_true) + str(total_letters_love)) 
 
 if (total_number < 10 or total_number > 90):
   print (f"your score is {total_number}, you go together like coke and mentos")
